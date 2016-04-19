@@ -1,5 +1,6 @@
 /********************************************************************************
  * CruiseControl, a Continuous Integration Toolkit
+
  * Copyright (c) 2005, ThoughtWorks, Inc.
  * 200 E. Randolph, 25th Floor
  * Chicago, IL 60601 USA
@@ -35,6 +36,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
 package net.sourceforge.cruisecontrol.sampleproject.connectfour;
+
 
 import junit.framework.TestCase;
 

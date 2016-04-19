@@ -36,13 +36,7 @@
  ********************************************************************************/
 package net.sourceforge.cruisecontrol.sampleproject.connectfour;
 
-import src.Cell;
-import src.Chip;
-import src.FullColumnException;
-import src.GameOverException;
-import src.InvalidColumnException;
-import src.OutOfTurnException;
-import src.PlayingStand;
+
 import junit.framework.TestCase;
 
 public class PlayingStandTest extends TestCase {
