@@ -34,7 +34,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
-package src;
+package net.sourceforge.cruisecontrol.sampleproject.connectfour;
 
-public class GameNotOverException extends RuntimeException {
+public class InvalidColumnException extends RuntimeException {
 }

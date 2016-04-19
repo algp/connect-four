@@ -34,8 +34,15 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
-package test;
+package net.sourceforge.cruisecontrol.sampleproject.connectfour;
 
+import src.Cell;
+import src.Chip;
+import src.FullColumnException;
+import src.GameOverException;
+import src.InvalidColumnException;
+import src.OutOfTurnException;
+import src.PlayingStand;
 import junit.framework.TestCase;
 
 public class PlayingStandTest extends TestCase {
