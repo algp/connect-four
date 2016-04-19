@@ -34,7 +34,15 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
-package net.sourceforge.cruisecontrol.sampleproject.connectfour;
+package src;
 
-public class StalemateException extends RuntimeException {
+/**
+ * Enumeration of possible chip types in a Connect Four game.
+ */
+public class Chip {
+    public static final Chip RED = new Chip();
+    public static final Chip BLACK = new Chip();
+
+    private Chip() {
+    }
 }

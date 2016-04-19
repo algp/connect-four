@@ -34,7 +34,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
-package net.sourceforge.cruisecontrol.sampleproject.connectfour;
+package test;
 
 import junit.framework.TestCase;
 
@@ -50,7 +50,7 @@ public class PlayingStandTest extends TestCase {
 
         stand.dropRed(0);
         stand.dropBlack(6);
-        assertTrue(stand.areFourConnected());  // Otra vez roto
+        assertFalse(stand.areFourConnected());  // Otra vez roto
 
         stand.dropRed(0);
         stand.dropBlack(6);
@@ -196,7 +196,7 @@ public class PlayingStandTest extends TestCase {
 
         fillWholeStandWithoutWinner(stand);
 
-        assertTrue(stand.areFourConnected());  // Otra rotura  rehecha (assertFalse) 
+        assertFalse(stand.areFourConnected());  // Otra rotura  rehecha (assertFalse) 
         assertTrue(stand.isGameOver());
         assertNull(stand.getWinner());
 

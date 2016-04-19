@@ -34,7 +34,27 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ********************************************************************************/
-package net.sourceforge.cruisecontrol.sampleproject.connectfour;
+package src;
 
-public class GameNotOverException extends RuntimeException {
+/**
+ * Generic class that is used by the Playing Stand to represent a cell in the stand.
+ */
+public class Cell {
+
+    private final int column;
+    private final int row;
+
+    public Cell(int column, int row) {
+        this.row = row;
+        this.column = column;
+    }
+
+    public int getColumn() {
+        return column;
+    }
+
+    public int getRow() {
+        return row;
+    }
+
 }
